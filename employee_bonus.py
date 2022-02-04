@@ -10,3 +10,4 @@ for row in employee_file:
     totalPay = float(row[3]) + (float(row[3]) * float(row[4]))
     print(row[1], row[2], totalPay)
     input()
+employees.close()
